@@ -65,3 +65,12 @@ PUT /api/users/{id}
 ## 🛠️ Tech Stack
 
 Java · Spring Boot · Maven · JUnit 5 · Mockito · Swagger/OpenAPI · Jakarta Validation
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Update endpoint tests
+- [ ] JPA + database integration (H2 / PostgreSQL)
+- [ ] Docker support
+- [ ] Deploy
