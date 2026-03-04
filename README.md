@@ -14,7 +14,7 @@ A RESTful API built with **Spring Boot** for managing users, demonstrating clean
 **Requirements:** Java 17+ and Maven 3.8+
 
 ```bash
-git clone https://github.com/Math713</user-management-api.git
+git clone https://github.com/Math713/user-management-api.git
 cd user-management-api
 mvn spring-boot:run
 ```
