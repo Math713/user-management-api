@@ -70,7 +70,6 @@ Java · Spring Boot · Maven · JUnit 5 · Mockito · Swagger/OpenAPI · Jakarta
 
 ## 🗺️ Roadmap
 
-- [ ] Update endpoint tests
 - [ ] JPA + database integration (H2 / PostgreSQL)
 - [ ] Docker support
 - [ ] Deploy
