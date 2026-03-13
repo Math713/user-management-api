@@ -8,12 +8,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Objects;
-import java.util.concurrent.atomic.AtomicLong;
 
 @Service
 public class UserService {
     private final UserRepository repository;
-    private final AtomicLong newId = new AtomicLong(1);
 
     public UserService(UserRepository repository) {
         this.repository = repository;
@@ -25,7 +23,6 @@ public class UserService {
         String normalizedEmail = normalizedEmail(user.getEmail());
         validateEmailForUniqueness(normalizedEmail, null);
 
-        user.setId(newId.getAndIncrement());
         user.setEmail(normalizedEmail);
 
         return repository.save(user);

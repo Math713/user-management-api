@@ -43,7 +43,11 @@ class UserServiceTest {
         void shouldCreateUserSuccessfully() {
             // Arrange
             when(repository.findByEmail("matheus@gmail.com")).thenReturn(Optional.empty());
-            when(repository.save(any(User.class))).thenAnswer(inv -> inv.getArgument(0));
+            when(repository.save(any(User.class))).thenAnswer(inv -> {
+                User user = inv.getArgument(0);
+                user.setId(1L);
+                return user;
+                    });
 
             // Act
             User result = service.create(newUser);
