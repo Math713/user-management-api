@@ -1,47 +1,23 @@
-# ======================
+# Environment
+.env
+
 # IntelliJ
-# ======================
 .idea/
 *.iml
 *.iws
 *.ipr
 out/
 
-# ======================
 # Maven
-# ======================
 target/
 !.mvn/wrapper/maven-wrapper.jar
 
-# ======================
-# Logs
-# ======================
-*.log
-
-# ======================
-# OS Files
-# ======================
-.DS_Store
-Thumbs.db
-
-# ======================
-# Environment files
-# ======================
-.env
-.env.*
-
-# ======================
-# Spring Boot
-# ======================
-application-local.yml
-application-local.properties
-
-# ======================
 # Java
-# ======================
 *.class
 
-# ======================
-# Build
-# ======================
-build/
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
