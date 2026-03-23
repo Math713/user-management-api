@@ -83,5 +83,4 @@ Java · Spring Boot · Maven · PostgreSQL · JUnit 5 · Mockito · Swagger/Open
 
 ## 🗺️ Roadmap
 
-- [ ] Docker support
 - [ ] Deploy
